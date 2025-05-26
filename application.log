@@ -3983,3 +3983,261 @@ Consider defining a bean of type 'java.lang.String' in your configuration.
 2025-05-23T17:57:58.647+01:00  INFO 2152 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2025-05-23T17:57:58.736+01:00  INFO 2152 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-05-23T17:57:58.757+01:00  INFO 2152 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Started AuthServiceApplication in 13.24 seconds (process running for 15.632)
+2025-05-26T12:18:14.912+01:00  INFO 21840 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Starting AuthServiceApplication using Java 24.0.1 with PID 21840 (C:\Users\Youcode\IdeaProjects\auth-service\target\classes started by Youcode in C:\Users\Youcode\IdeaProjects\auth-service)
+2025-05-26T12:18:14.919+01:00  INFO 21840 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T12:18:15.058+01:00  INFO 21840 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-26T12:18:15.059+01:00  INFO 21840 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-26T12:18:17.160+01:00  INFO 21840 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T12:18:17.325+01:00  INFO 21840 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 1 JPA repository interface.
+2025-05-26T12:18:18.741+01:00  INFO 21840 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T12:18:18.788+01:00  INFO 21840 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T12:18:18.789+01:00  INFO 21840 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-26T12:18:18.889+01:00  INFO 21840 --- [auth-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T12:18:18.890+01:00  INFO 21840 --- [auth-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3829 ms
+2025-05-26T12:18:19.237+01:00  INFO 21840 --- [auth-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T12:18:19.394+01:00  INFO 21840 --- [auth-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-26T12:18:19.482+01:00  INFO 21840 --- [auth-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T12:18:20.214+01:00  INFO 21840 --- [auth-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T12:18:20.290+01:00  INFO 21840 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-26T12:18:21.218+01:00  INFO 21840 --- [auth-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@169b3fd5
+2025-05-26T12:18:21.226+01:00  INFO 21840 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-26T12:18:21.501+01:00  INFO 21840 --- [auth-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T12:18:23.576+01:00  INFO 21840 --- [auth-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T12:18:23.785+01:00  INFO 21840 --- [auth-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T12:18:24.635+01:00  WARN 21840 --- [auth-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T12:18:25.601+01:00  INFO 21840 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-26T12:18:25.748+01:00  INFO 21840 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T12:18:25.779+01:00  INFO 21840 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Started AuthServiceApplication in 12.104 seconds (process running for 16.298)
+2025-05-26T12:18:39.738+01:00  INFO 21840 --- [auth-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T12:18:39.763+01:00  INFO 21840 --- [auth-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T12:18:39.774+01:00  INFO 21840 --- [auth-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T12:18:39.782+01:00  INFO 21840 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-26T12:18:39.799+01:00  INFO 21840 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-26T14:10:57.368+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Starting AuthServiceApplication using Java 24.0.1 with PID 18124 (C:\Users\Youcode\IdeaProjects\auth-service\target\classes started by Youcode in C:\Users\Youcode\IdeaProjects\auth-service)
+2025-05-26T14:10:57.375+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T14:10:57.670+01:00  INFO 18124 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-26T14:10:57.671+01:00  INFO 18124 --- [auth-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-26T14:11:02.131+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T14:11:02.260+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 1 JPA repository interface.
+2025-05-26T14:11:03.386+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T14:11:03.424+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T14:11:03.426+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-26T14:11:03.554+01:00  INFO 18124 --- [auth-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T14:11:03.555+01:00  INFO 18124 --- [auth-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5881 ms
+2025-05-26T14:11:04.232+01:00  INFO 18124 --- [auth-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T14:11:04.415+01:00  INFO 18124 --- [auth-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-26T14:11:04.521+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T14:11:05.485+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T14:11:05.565+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-26T14:11:06.380+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1cb728b7
+2025-05-26T14:11:06.385+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-26T14:11:06.713+01:00  INFO 18124 --- [auth-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T14:11:09.481+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T14:11:09.694+01:00  INFO 18124 --- [auth-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T14:11:10.729+01:00  WARN 18124 --- [auth-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T14:11:11.777+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-26T14:11:11.866+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T14:11:11.886+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Started AuthServiceApplication in 16.78 seconds (process running for 24.314)
+2025-05-26T14:11:34.559+01:00  INFO 18124 --- [auth-service] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-05-26T14:11:34.570+01:00  INFO 18124 --- [auth-service] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T14:11:34.596+01:00  INFO 18124 --- [auth-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T14:11:34.607+01:00  INFO 18124 --- [auth-service] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T14:11:34.617+01:00  INFO 18124 --- [auth-service] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-26T14:11:34.632+01:00  INFO 18124 --- [auth-service] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-26T14:11:34.846+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Starting AuthServiceApplication using Java 24.0.1 with PID 18124 (C:\Users\Youcode\IdeaProjects\auth-service\target\classes started by Youcode in C:\Users\Youcode\IdeaProjects\auth-service)
+2025-05-26T14:11:34.847+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T14:11:35.305+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T14:11:35.334+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2025-05-26T14:11:35.601+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T14:11:35.607+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T14:11:35.607+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-26T14:11:35.661+01:00  INFO 18124 --- [auth-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T14:11:35.661+01:00  INFO 18124 --- [auth-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 808 ms
+2025-05-26T14:11:35.757+01:00  INFO 18124 --- [auth-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T14:11:35.765+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T14:11:35.789+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T14:11:35.793+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-05-26T14:11:35.882+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7489e358
+2025-05-26T14:11:35.883+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-05-26T14:11:35.906+01:00  INFO 18124 --- [auth-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T14:11:36.080+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T14:11:36.138+01:00  INFO 18124 --- [auth-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T14:11:36.371+01:00  WARN 18124 --- [auth-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T14:11:36.702+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-26T14:11:36.740+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T14:11:36.755+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Started AuthServiceApplication in 1.997 seconds (process running for 49.183)
+2025-05-26T14:11:36.760+01:00  INFO 18124 --- [auth-service] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-05-26T14:11:41.170+01:00  INFO 18124 --- [auth-service] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-05-26T14:11:41.173+01:00  INFO 18124 --- [auth-service] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T14:11:41.187+01:00  INFO 18124 --- [auth-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T14:11:41.190+01:00  INFO 18124 --- [auth-service] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T14:11:41.192+01:00  INFO 18124 --- [auth-service] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-05-26T14:11:41.201+01:00  INFO 18124 --- [auth-service] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-05-26T14:11:41.342+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Starting AuthServiceApplication using Java 24.0.1 with PID 18124 (C:\Users\Youcode\IdeaProjects\auth-service\target\classes started by Youcode in C:\Users\Youcode\IdeaProjects\auth-service)
+2025-05-26T14:11:41.343+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T14:11:41.827+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T14:11:41.848+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2025-05-26T14:11:42.080+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T14:11:42.082+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T14:11:42.083+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-26T14:11:42.159+01:00  INFO 18124 --- [auth-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T14:11:42.160+01:00  INFO 18124 --- [auth-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 810 ms
+2025-05-26T14:11:42.277+01:00  INFO 18124 --- [auth-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T14:11:42.284+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T14:11:42.367+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T14:11:42.369+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-05-26T14:11:42.619+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@f7b2799
+2025-05-26T14:11:42.620+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-05-26T14:11:42.653+01:00  INFO 18124 --- [auth-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T14:11:42.956+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T14:11:42.990+01:00  INFO 18124 --- [auth-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T14:11:43.252+01:00  WARN 18124 --- [auth-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T14:11:43.745+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-26T14:11:43.790+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T14:11:43.799+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Started AuthServiceApplication in 2.508 seconds (process running for 56.227)
+2025-05-26T14:11:43.813+01:00  INFO 18124 --- [auth-service] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-05-26T16:15:27.706+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-26T16:15:27.734+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-26T16:15:27.819+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 82 ms
+2025-05-26T16:15:28.822+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource send-email-validation.]
+2025-05-26T16:18:49.280+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource send-email-validation.]
+2025-05-26T16:22:04.218+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource send-email-validation.]
+2025-05-26T16:22:35.136+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-6] com.dashy.authservice.model.User         : 
+ /send-email-validation was called 
+
+2025-05-26T16:23:30.487+01:00  INFO 18124 --- [auth-service] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-05-26T16:23:30.666+01:00  INFO 18124 --- [auth-service] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T16:23:30.722+01:00  INFO 18124 --- [auth-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T16:23:30.820+01:00  INFO 18124 --- [auth-service] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:23:30.894+01:00  INFO 18124 --- [auth-service] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-05-26T16:23:30.929+01:00  INFO 18124 --- [auth-service] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-05-26T16:23:32.163+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Starting AuthServiceApplication using Java 24.0.1 with PID 18124 (C:\Users\Youcode\IdeaProjects\auth-service\target\classes started by Youcode in C:\Users\Youcode\IdeaProjects\auth-service)
+2025-05-26T16:23:32.165+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T16:23:33.283+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T16:23:33.329+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-05-26T16:23:33.817+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T16:23:33.826+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T16:23:33.828+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-26T16:23:33.953+01:00  INFO 18124 --- [auth-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T16:23:33.954+01:00  INFO 18124 --- [auth-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1768 ms
+2025-05-26T16:23:34.081+01:00  INFO 18124 --- [auth-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T16:23:34.094+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T16:23:34.144+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T16:23:34.147+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-05-26T16:23:34.341+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@6ec89d89
+2025-05-26T16:23:34.342+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-05-26T16:23:34.443+01:00  INFO 18124 --- [auth-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T16:23:34.694+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T16:23:34.869+01:00  INFO 18124 --- [auth-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:23:35.222+01:00  WARN 18124 --- [auth-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T16:23:35.768+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-26T16:23:35.817+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T16:23:35.838+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Started AuthServiceApplication in 3.944 seconds (process running for 7968.266)
+2025-05-26T16:23:35.841+01:00  INFO 18124 --- [auth-service] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-05-26T16:23:47.669+01:00  INFO 18124 --- [auth-service] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-05-26T16:23:47.675+01:00  INFO 18124 --- [auth-service] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T16:23:47.706+01:00  INFO 18124 --- [auth-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T16:23:47.714+01:00  INFO 18124 --- [auth-service] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:23:47.716+01:00  INFO 18124 --- [auth-service] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-05-26T16:23:47.729+01:00  INFO 18124 --- [auth-service] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-05-26T16:23:48.211+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Starting AuthServiceApplication using Java 24.0.1 with PID 18124 (C:\Users\Youcode\IdeaProjects\auth-service\target\classes started by Youcode in C:\Users\Youcode\IdeaProjects\auth-service)
+2025-05-26T16:23:48.215+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-26T16:23:49.989+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-26T16:23:50.023+01:00  INFO 18124 --- [auth-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2025-05-26T16:23:51.196+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-26T16:23:51.205+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-26T16:23:51.206+01:00  INFO 18124 --- [auth-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-26T16:23:51.376+01:00  INFO 18124 --- [auth-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-26T16:23:51.377+01:00  INFO 18124 --- [auth-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3123 ms
+2025-05-26T16:23:51.498+01:00  INFO 18124 --- [auth-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-26T16:23:51.511+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-26T16:23:51.558+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-26T16:23:51.565+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-05-26T16:23:51.772+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@6dfb7128
+2025-05-26T16:23:51.772+01:00  INFO 18124 --- [auth-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-05-26T16:23:51.824+01:00  INFO 18124 --- [auth-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-26T16:23:52.024+01:00  INFO 18124 --- [auth-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-26T16:23:52.108+01:00  INFO 18124 --- [auth-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T16:23:52.328+01:00  WARN 18124 --- [auth-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-26T16:23:52.638+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-26T16:23:52.671+01:00  INFO 18124 --- [auth-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-26T16:23:52.678+01:00  INFO 18124 --- [auth-service] [restartedMain] c.d.authservice.AuthServiceApplication   : Started AuthServiceApplication in 4.769 seconds (process running for 7985.106)
+2025-05-26T16:23:52.682+01:00  INFO 18124 --- [auth-service] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-05-26T16:42:48.125+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-26T16:42:48.146+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-26T16:42:48.223+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 75 ms
+2025-05-26T16:42:48.421+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-1] com.dashy.authservice.model.User         : 
+ /send-email-validation was called 
+
+2025-05-26T16:46:02.212+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource send-otp-validation.]
+2025-05-26T17:28:50.651+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource start-signup.]
+2025-05-26T17:29:13.826+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource start-signup.]
+2025-05-26T17:29:27.821+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource complete-task/d5d46579-3a4b-11f0-a80d-00155d2c39d8.]
+2025-05-26T17:30:17.108+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource complete-task/d5d46579-3a4b-11f0-a80d-00155d2c39d8.]
+2025-05-26T17:30:52.786+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource complete-task/d60fc0db-3a4b-11f0-a80d-00155d2c39d8.]
+2025-05-26T17:31:22.606+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource complete-task/d60fc0db-3a4b-11f0-a80d-00155d2c39d8.]
+2025-05-26T17:31:28.497+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-6] com.dashy.authservice.model.User         : 
+ /send-email-validation was called 
+
+2025-05-26T17:32:48.846+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/complete-task/d60fc0db-3a4b-11f0-a80d-00155d2c39d8.]
+2025-05-26T17:33:24.618+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource start-signup.]
+2025-05-26T17:33:29.639+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource start-signup.]
+2025-05-26T17:34:43.192+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/mappings.]
+2025-05-26T17:37:27.985+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource test.]
+2025-05-26T17:38:06.352+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource test.]
+2025-05-26T17:44:39.579+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource test.]
+2025-05-26T17:44:56.137+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource test.]
+2025-05-26T17:48:04.261+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource start-signup.]
+2025-05-26T17:51:54.584+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource start-signup.]
+2025-05-26T17:55:15.817+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource start-signup.]
+2025-05-26T17:57:07.230+01:00  INFO 18124 --- [auth-service] [http-nio-8080-exec-1] com.dashy.authservice.model.User         : 
+ /send-email-validation was called 
+
+2025-05-26T18:00:50.403+01:00  WARN 18124 --- [auth-service] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource send-otp-validation.]
+2025-05-26T18:03:13.455+01:00  INFO 18124 --- [auth-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-26T18:03:13.565+01:00  INFO 18124 --- [auth-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-26T18:03:13.674+01:00  INFO 18124 --- [auth-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-26T18:03:13.776+01:00  INFO 18124 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-05-26T18:03:13.867+01:00  INFO 18124 --- [auth-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
