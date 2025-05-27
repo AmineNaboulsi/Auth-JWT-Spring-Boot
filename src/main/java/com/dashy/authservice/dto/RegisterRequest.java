@@ -11,7 +11,7 @@ public record RegisterRequest(
 
         @NotBlank(message = "Phone number is required")
         @Size(min = 10, message = "Password must be at least 8 characters")
-        String phoneNumber,
+        String phone,
 
         @NotBlank(message = "Email is required")
         @Email(message = "Invalid email format")

@@ -5,4 +5,7 @@ import com.dashy.authservice.model.User;
 
 public interface AuthService {
     User registerUser(RegisterRequest request);
+    boolean ValidatePhoneNumber(String PhoneNumber);
+    boolean ValidateEmail(String email);
+    boolean ValidateUserName(String userName);
 }

@@ -24,7 +24,7 @@ public class GlobalExceptionHandler extends RuntimeException {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleGenericException(Exception ex) {
         return new ResponseEntity<>(
-                new ErrorResponse("An unexpected error occurred", "Please try again later" + ex.getMessage()),
+                new ErrorResponse("An unexpected error occurred", "Please try again later : " + ex.getMessage()),
                 HttpStatus.INTERNAL_SERVER_ERROR
         );
     }
