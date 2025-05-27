@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class SimpleController {
 
     @GetMapping("/")
-    public String getNothing(){
-        return "Hello World";
+    public String Lol() {
+        return "lol";
     }
+
 }
