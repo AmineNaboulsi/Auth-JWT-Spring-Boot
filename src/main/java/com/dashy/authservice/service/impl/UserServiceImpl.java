@@ -7,7 +7,6 @@ import com.dashy.authservice.repository.UserRepository;
 import com.dashy.authservice.service.AuthService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +15,6 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements AuthService {
 
     private final UserRepository userRepository;
-
     private final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 
     @Override
